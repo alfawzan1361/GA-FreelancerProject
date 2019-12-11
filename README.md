@@ -3,16 +3,15 @@ This is a freelancers web application platform, which connect the the freelancer
 
 ## Implementation
 - Google Sign-In API: https://developers.google.com/identity/sign-in/web/sign-in.
-###Tools: 
-HTML, PHP, JS, CSS, and Bootdtrap.
-- ###Main Page: 
-Costumer can request for diffrent type of services
-- ###Freelancer Dashboard Page:
-this contain the freelancer profile, tasks, tickets, etc.  
+Tools: HTML, PHP, JS, CSS, and Bootdtrap.
+- Main Page: Costumer can request for diffrent type of services.
+- Freelancer Dashboard Page: this contain the freelancer profile, tasks, tickets, etc.  
 
 ## How to build
-Clone or download project --> open "Virtual_Tourist.xcodeproj" --> run 
+Clone or download project --> open index.html for design review.
+Or
+Clone or download project --> download apache server --> open localhost/index.html for full experience.
 
 ## Requirements
-- Xcode 9.2
-- Swift 4.0
+- Node.js - latest stable version
+- Apache server
