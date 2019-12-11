@@ -14,7 +14,7 @@ Clone or download project --> download apache server --> open localhost/index.ht
 
 ## Requirements
 - Node.js - latest stable version.
-- Apache server - latest stable version.
+- Apache server, web hosting services, or any server can run PHP files.
 
 ## Notes
 - Add your e-mail address on contact-us.php and service_request.php to recieve requests or inquries. 
