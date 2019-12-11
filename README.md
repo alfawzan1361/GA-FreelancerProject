@@ -8,9 +8,9 @@ This is a freelancers web application platform, which connect the the freelancer
 - Freelancer Dashboard Page: this contain the freelancer profile, tasks, tickets, etc.  
 
 ## How to build
-Clone or download project --> open index.html for design review. 
-Or 
-Clone or download project --> download apache server --> open localhost/index.html for full experience. 
+Clone or download project --> open index.html for design review.  
+Or   
+Clone or download project --> download apache server --> open localhost/index.html for full experience.  
 
 ## Requirements
 - Node.js - latest stable version.
