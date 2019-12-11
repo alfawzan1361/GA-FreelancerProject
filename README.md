@@ -8,14 +8,14 @@ This is a freelancers web application platform, which connect the the freelancer
 - Freelancer Dashboard Page: this contain the freelancer profile, tasks, tickets, etc.  
 
 ## How to build
-Clone or download project --> open index.html for design review.
-Or
-Clone or download project --> download apache server --> open localhost/index.html for full experience.
+Clone or download project --> open index.html for design review. 
+Or 
+Clone or download project --> download apache server --> open localhost/index.html for full experience. 
 
 ## Requirements
-- Node.js - latest stable version
-- Apache server - latest stable version
+- Node.js - latest stable version.
+- Apache server - latest stable version.
 
 ## Notes
-Add your e-mail address on contact-us.php and service_request.php to recieve requests or inquries 
+Add your e-mail address on contact-us.php and service_request.php to recieve requests or inquries. 
 `$to='YOUR_EMAIL_ADDRESS';`
