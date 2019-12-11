@@ -1,0 +1,19 @@
+.personalImage{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+@media (max-width: 767px) {
+    .personalImage{
+        height: 150px;
+        width: 150px;
+    }
+  }
+
+  .supFree{
+      color: white;
+      border: 2px;
+      background-color: #006600;
+      padding: 0 5px 0 5px;
+      border-radius: 5px;
+  }

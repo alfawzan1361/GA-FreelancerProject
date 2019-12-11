@@ -1,0 +1,244 @@
+.timeline
+{
+  position: relative;
+  margin: 50px auto;
+  width: 900px;
+}
+.timeline:before
+{
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: #57606f;
+
+}
+.timeline ul
+{
+  margin: 0;
+  padding: 0;
+}
+.timeline ul li
+{
+  list-style: none;
+  line-height: normal;
+  position: relative;
+  width: 50%;
+  padding-left: 20px 40px;
+}
+.timeline ul li:nth-child(odd)
+{
+  float: left;
+  text-align: right;
+  clear: both;
+}
+.timeline ul li:nth-child(even)
+{
+  float: right;
+  text-align: left;
+  clear: both;
+}
+
+.timeline ul li:nth-child(odd):before
+{
+  content: '';
+  position: absolute;
+  top: 32px;
+  right: -9px;
+  width: 15px;
+  height: 15px;
+  background: #57606f;
+  border-radius: 50%;
+}
+.timeline ul li:nth-child(even):before
+{
+  content: '';
+  position: absolute;
+  top: 29px;
+  left: -7px;
+  width: 15px;
+  height: 15px;
+  background: #57606f;
+  border-radius: 50%;
+}
+
+.timeline ul li .content h3
+{
+  margin: 20px;
+  padding: 0;
+  font-weight: 600;
+  color: #202e42;
+  text-align: left;
+}
+
+.timeline ul li .content h4
+{
+  margin: 20px;
+  padding: 0;
+  font-weight: 600;
+  color: #202e42;
+  text-align: left;
+}
+.timeline ul li .content h5
+{
+  margin: 20px;
+  padding: 0;
+  color: #202e42;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+}
+
+.timeline ul li .content-education h3
+{
+  margin: 20px;
+  padding: 0;
+  font-weight: 600;
+  color: #202e42;
+  text-align: left;
+}
+
+.timeline ul li .content-education h4
+{
+  margin: 20px;
+  padding: 0;
+  font-weight: 600;
+  color: #202e42;
+  text-align: left;
+}
+.timeline ul li .content-education h5
+{
+  margin: 20px;
+  padding: 0;
+  color: #202e42;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: left;
+}
+
+.timeline ul li p
+{
+  margin: 20px;
+  padding: 0;
+  text-align: left;
+  font-size: 16px;
+}
+.timeline ul li .time h4
+{
+  margin: 0px;
+  padding: 0px;
+  font-weight: 600;
+  text-align: center;
+}
+.timeline ul li .time h5
+{
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+
+.timeline ul li .time-education h4
+{
+  margin: 0px;
+  padding: 0px;
+  font-weight: 600;
+  text-align: center;
+}
+.timeline ul li .time-education h5
+{
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+.timeline ul li:nth-child(odd) .time
+{
+  position: absolute;
+  top: -0px;
+  right: -230px;
+  margin: 0px;
+  padding: 10px 20px;
+  background: #57606f;
+  color: #fff;
+  border-radius: 30px;
+
+}
+.timeline ul li:nth-child(even) .time
+{
+  position: absolute;
+  top: -3px;
+  left: -230px;
+  margin: 0px;
+  padding: 10px 20px;
+  background: #57606f;
+  color: #fff;
+  border-radius: 30px;
+}
+.timeline ul li:nth-child(odd) .time-education
+{
+  position: absolute;
+  top: 6px;
+  right: -230px;
+  margin: 0px;
+  padding: 10px 20px;
+  background: #57606f;
+  color: #fff;
+  border-radius: 30px;
+
+}
+.timeline ul li:nth-child(even) .time-education
+{
+  position: absolute;
+  top: 4px;
+  left: -230px;
+  margin: 0px;
+  padding: 10px 20px;
+  background: #57606f;
+  color: #fff;
+  border-radius: 30px;
+}
+
+
+@media (max-width: 1000px) {
+  .timeline{
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .timeline{
+    width: 100%;
+  }
+  .timeline:before
+  {
+    left: 20px;
+  }
+  .timeline ul li:nth-child(odd),
+  .timeline ul li:nth-child(even)
+  {
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .timeline ul li:nth-child(odd):before,
+  .timeline ul li:nth-child(even):before
+  {
+    top: 20px;
+    left: 14px;
+  }
+  .timeline ul li:nth-child(odd) .time,
+  .timeline ul li:nth-child(even) .time
+  {
+    top:-11px;
+    left: 50px;
+    right: inherit;
+  }
+  .timeline ul li:nth-child(odd) .time-education,
+  .timeline ul li:nth-child(even) .time-education
+  {
+    top:-2px;
+    left: 50px;
+    right: inherit;
+  }
+}
