@@ -1,4 +1,4 @@
-# GA-FreelancerProject
+# GA_JS_Freelancer_Project
 This is a freelancers web application platform, which connect the the freelancers with consumers to build thier own custom projects.
 
 ## Implementation
