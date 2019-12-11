@@ -2,7 +2,7 @@
 This is a freelancers web application platform, which connect the the freelancers with consumers to build thier own custom projects.
 
 ## Implementation
-- Google Sign-In API: https://developers.google.com/identity/sign-in/web/sign-in
+- Google Sign-In API: https://developers.google.com/identity/sign-in/web/sign-in.
 ###Tools: 
 HTML, PHP, JS, CSS, and Bootdtrap.
 - ###Main Page: 
