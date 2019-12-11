@@ -17,5 +17,5 @@ Clone or download project --> download apache server --> open localhost/index.ht
 - Apache server - latest stable version
 
 ## Notes
-Add your e-mail address on contact-us.php and service_request.php
+Add your e-mail address on contact-us.php and service_request.php to recieve requests or inquries 
 `$to='YOUR_EMAIL_ADDRESS';`
