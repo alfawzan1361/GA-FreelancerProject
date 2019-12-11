@@ -3,7 +3,7 @@ This is a freelancers web application platform, which connect the the freelancer
 
 ## Implementation
 - Google Sign-In API: https://developers.google.com/identity/sign-in/web/sign-in.
-Tools: HTML, PHP, JS, CSS, and Bootdtrap.
+- Tools: HTML, PHP, JS, CSS, and Bootdtrap.
 - Main Page: Costumer can request for diffrent type of services.
 - Freelancer Dashboard Page: this contain the freelancer profile, tasks, tickets, etc.  
 
